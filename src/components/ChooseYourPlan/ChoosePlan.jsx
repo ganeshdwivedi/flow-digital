@@ -1,7 +1,7 @@
 import React from 'react'
 import ChooseYourPlanCard from './ChooseYourPlanCard'
-import Curly from '@/assets/Design/Curly'
-import DonutHalf from '@/assets/Design/donutHalf'
+import Curly from '../../assets/Design/Curly'
+import DonutHalf from '../../assets/Design/donutHalf'
 
 const ChoosePlan = () => {
     return (
