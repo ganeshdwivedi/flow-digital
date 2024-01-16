@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.OurDesignAccordion{
+        counter-reset: section;
+}
+
+.Accordion button{
+    -webkit-text-fill-color: #556EE6;
+}
+.accordion-item-container h2 button::before{
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0;
+    counter-increment:section ;
+    content: counter(section);
+}
+.Accordion-img{
+    fill: linear-gradient(0deg, #C1D3F5 0%, rgba(219, 231, 255, 0.00) 100%, rgba(219, 231, 255, 0.00) 100%);
+}
+.hero-text-design,.ChooseYourCard-text-design{
+    background: linear-gradient(276deg, #1E6DDC 4.73%, #38E1C9 105.61%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.FeaturedSwipper .swiper-wrapper .swiper-slide  {
+    scale: 0.6;
+    z-index: 1;
+}
+.FeaturedSwipper .swiper-wrapper .swiper-slide .FeaturedSliderContainer{
+    background-color: rgba(0, 0, 0, 0.5);
+        inset: 0;
+        position: absolute;
+}
+
+.FeaturedSwipper .swiper-wrapper .swiper-slide.swiper-slide-prev,
+.FeaturedSwipper .swiper-wrapper .swiper-slide.swiper-slide-next {
+    scale: 0.8;
+    z-index: 2;
+}
+
+.FeaturedSwipper .swiper-wrapper .swiper-slide.swiper-slide-prev .FeaturedSliderContainer,
+.FeaturedSwipper .swiper-wrapper .swiper-slide.swiper-slide-next .FeaturedSliderContainer {
+    background-color: rgba(0, 0, 0, 0.15);
+    inset: 0;
+    position: absolute;
+}
+
+
+.FeaturedSwipper .swiper-wrapper .swiper-slide.swiper-slide-active {
+    scale: 1;
+    z-index: 3;
+    width: 100%;
+}
+
+
+.ExpertiseOkay{
+    background: linear-gradient(180deg, #9EC3F9 -23.16%, #C1CBFF -20.15%, rgba(156, 207, 255, 0.50) 38.7%, rgba(167, 229, 255, 0.0) 94.44%);
+}
+
+.FeaturedSwipper .swiper-wrapper .swiper-slide.swiper-slide-active .FeaturedSliderContainer{
+    background-color: rgba(255, 255, 255, 0);;
+    inset: 0;
+    position: absolute;
+}
+
+
+.ChooseYourCard{
+    box-shadow: 0px 6px 20px 0px rgba(165, 169, 189, 0.20);
+}
+.ChooseYourCard .ChooseYourCard-text-design{
+    background: linear-gradient(266deg, #5AC5E4 -33.5%, #4A71D5 103.96%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.ChooseYourCard:hover,.OurExpertiseCard:hover{
+background: linear-gradient(162deg, #FFF -55.43%, #85D9F4 -55.43%, #86BEFF -14.99%, #93AAFD 33.58%, #686CD6 100%);
+color: white;
+}
+.ChooseYourCard:hover button {
+color: #556EE6;
+background-color: white;
+}
+.ChooseYourCard:hover p, .ChooseYourCard:hover .ChooseYourCard-text-design,
+.OurExpertiseCard:hover p
+{
+    color: white;
+    -webkit-text-fill-color: white;
+}
+
+
+.not-sure-container{
+    background: linear-gradient(89deg, #FFF -23.73%, #85D9F4 -23.71%, #86BEFF 20.94%, #93AAFD 65.88%, #686CD6 109.02%);
+}
+
+
+.FAQAccordion button{
+    -webkit-text-fill-color: white;
+}
+.FAQAccordion button span svg {
+color: white;
+width: 24px;
+height: 24px;
+font-weight: 600;
+}
+.FAQAccordion hr{
+background: white;
+}
+
+.blue-blury{
+    border-radius: 1244px;
+        
+        filter: blur(125px);
+}
+
+.MobileExpertiseAccordion button span svg{
+    color: white;
+        width: 20px;
+        height: 20px;
+        font-weight: 600;
+}
+.MobileExpertiseAccordion hr{
+    background: white;
+}
