@@ -21,7 +21,7 @@ const ChooseYourPlanCard = () => {
         description: ["Included Standard Package", "E-commerce functionality", "10 products"]
     }]
     return (
-        <div className='grid relative lg:place-items-center md:gap-x-[300px] overflow-x-scroll overflow-y-hidden lg:px-0 px-[50px] xl:overflow-visible scrollbar-hide xl:gap-x-[28px] grid-cols-4'>
+        <div className='grid relative gap-x-[300px] overflow-x-scroll overflow-y-hidden xl:px-0 md:px-[25px] px-[50px] xl:overflow-visible scrollbar-hide xl:gap-x-[28px] grid-cols-4'>
 
             {
                 Data.map((item) =>
